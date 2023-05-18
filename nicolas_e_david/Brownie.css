@@ -10,3 +10,10 @@ button{
 input{
     color: goldenrod;
 }
+h2{
+    text-align: center;
+}
+iframe{
+    align-items: center;
+    padding: 0 390px;
+}
