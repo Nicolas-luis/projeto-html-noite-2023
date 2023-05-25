@@ -1,24 +1,29 @@
-
-body{
+body {
     background-color: rgb(64, 77, 142);
     color: rgb(0, 0, 0);
 }
-main{
+
+main {
     text-align: 757;
 }
-tr{
+
+tr {
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
 }
-form{
+
+form {
     text-align-last: center;
 }
-h1{
+
+h1 {
     text-align: center;
 }
-h3{
+
+h3 {
     text-align: center;
 }
-table{
+
+table {
     text-align: center;
 }

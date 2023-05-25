@@ -1,18 +1,23 @@
-body{
+body {
     background-color: rgb(255, 255, 255)
 }
-body{
+
+body {
     color: rgb(79, 40, 12);
 }
-button{
+
+button {
     color: goldenrod;
 }
-input{
+
+input {
     color: goldenrod;
 }
-iframe{
+
+iframe {
     padding: 0 390px;
 }
-h2{
+
+h2 {
     text-align: center;
 }

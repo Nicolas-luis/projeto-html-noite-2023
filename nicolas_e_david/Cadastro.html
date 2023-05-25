@@ -1,38 +1,48 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro</title>
 </head>
-<body background="https://th.bing.com/th/id/R.03c1651e7b6da5ed6f17490bb8b7f846?rik=7UUQY3ERvN5V5w&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fS6zUsH8.jpg&ehk=N%2fyqJx6YIUyy0G8zLxLV7%2bL8Fdj%2bJcA%2f%2ftkkr5w5H20%3d&risl=&pid=ImgRaw&r=0">
+
+<body
+    background="https://th.bing.com/th/id/R.03c1651e7b6da5ed6f17490bb8b7f846?rik=7UUQY3ERvN5V5w&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fS6zUsH8.jpg&ehk=N%2fyqJx6YIUyy0G8zLxLV7%2bL8Fdj%2bJcA%2f%2ftkkr5w5H20%3d&risl=&pid=ImgRaw&r=0">
     <hr>
     <nav>
-        <a href="http://127.0.0.1:5500/nicolas_e_david/ESCOLA_DE_CULIN%C3%81RIA_OE.html"><button><b> Início </b></button></a>   
+        <a href="http://127.0.0.1:5500/nicolas_e_david/ESCOLA_DE_CULIN%C3%81RIA_OE.html"><button><b> Início
+                </b></button></a>
         <a href="http://127.0.0.1:5500/nicolas_e_david/cupcake.html"><button><b> Cupcake </b></button></a>
         <a href="http://127.0.0.1:5500/nicolas_e_david/brownie.html"><button><b> Brownie </b></button></a>
         <a href="http://127.0.0.1:5500/nicolas_e_david/Pudim_de_leite.html"><button><b> Pudim de leite </b></button></a>
         <a href="http://127.0.0.1:5500/nicolas_e_david/cadastro.html"><button><b> Faça seu cadastro </b></button></a>
-        <a href="http://127.0.0.1:5500/nicolas_e_david/Alunos_Cadastrados.html"><button><b> Alunos cadastrados </b></button></a>
+        <a href="http://127.0.0.1:5500/nicolas_e_david/Alunos_Cadastrados.html"><button><b> Alunos cadastrados
+                </b></button></a>
         <input type="button" value="Voltar" onClick="history.go(-1)">
-    </nav>  
+    </nav>
     <hr>
     <h1>Preencha o formulário</h1>
     <link rel="stylesheet" href="Alunos.css">
-    <form>
-       <input type="text" id="nome" name="Nome" value size="40" class="personalized-form-input" aria-required="true" aria-invalid="false" placeholder="Nome">
+    <form action="Alunos_Cadastrados.html" method="get">
+        <input type="text" id="nome" name="Nome" value size="40" class="personalized-form-input" aria-required="true"
+            aria-invalid="false" placeholder="Nome">
+        <input type="email" id="email" name="Email" class="personalized-form-input" value size="40" aria-required="true"
+            aria-invalid="false" placeholder="Email">
+        <input type="number" id="telefone" name="telefone" class="personalized-form-input" value size="40"
+            aria-required="true" aria-invalid="false" placeholder="Telefone">
+        <input type="date" id="idade" name="idade" class="personalized-form-input" value size="40" aria-required="true"
+            aria-invalid="false" placeholder="Idade">
+        <input type="radio" id="Masculino" name="sexo" class="personalized-form-input" value size="40"
+            aria-required="true" aria-invalid="false" placeholder="Sexo">
+        Masculino
+        <input type="radio" id="Feminino" name="sexo" class="personalized-form-input" value size="40"
+            aria-required="true" aria-invalid="false" placeholder="Sexo">
+        Feminino
+        <br>
+        <button type="submit">Confirmar</button>
     </form>
-    <form>
-        <input type="email" id="email" name="Email" class="personalized-form-input" value size="40" aria-required="true" aria-invalid="false" placeholder="Email">
-    </form>
-    <form>
-        <input type="telefone" id="telefone" name="telefone" class="personalized-form-input" value size="40" aria-required="true" aria-invalid="false" placeholder="Telefone">
-    </form>
-    <form>
-        <input type="idade" id="idade" name="idade" class="personalized-form-input" value size="40" aria-required="true" aria-invalid="false" placeholder="Idade">
-    </form>
-    <form>
-        <input type="sexo" id="sexo" name="sexo" class="personalized-form-input" value size="40" aria-required="true" aria-invalid="false" placeholder="Sexo">
-    </form>
-    <h3><a href="http://127.0.0.1:5500/nicolas_e_david/Alunos_Cadastrados.html"><button>Confirmar</button>
-    </a></h3>
 </body>
+
 </html>
