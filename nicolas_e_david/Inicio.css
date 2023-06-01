@@ -1,5 +1,9 @@
-p {
-    color: black;
+p{
+    color: rgb(255, 255, 255);
+}
+
+h1,h2{
+    color: rgb(255, 255, 255);
 }
 
 button {

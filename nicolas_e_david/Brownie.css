@@ -15,7 +15,7 @@ input {
 }
 
 iframe {
-    margin-left: 30%;
+    margin-left: 25%;
 }
 
 h2 {
@@ -38,3 +38,22 @@ li {
 #ff {
     margin-left: 0%;
 }
+
+base {
+    background-attachment: fixed;
+}
+
+img {
+    background-attachment: fixed;
+}
+
+text::marker {
+    color: rgb(224, 193, 36);
+    font-weight: bold;
+  }
+  
+  ul li::marker {
+    font-size: 150%;
+    color: rgb(231, 213, 24);
+  }
+  

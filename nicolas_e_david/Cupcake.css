@@ -18,16 +18,16 @@ iframe {
     margin-left: 30%;
 }
 
-h2{
-    margin-left: 35%;
+h2 {
+    margin-left: 37%;
 }
 
 img {
-    margin-left: 32%;
+    margin-left: 35%;
 }
 
 h3 {
-    margin-left: 30%;
+    margin-left: 00%;
     font-style: italic;
 }
 
@@ -37,8 +37,14 @@ li {
 
 #ff {
     margin-left: 0%;
-} 
+}
 
-h3 {
-    
+ol li::marker {
+    color: rgb(255, 123, 66);
+    font-weight: bold;
+}
+
+ul li::marker {
+    font-size: 110%;
+    color: rgb(255, 123, 66);
 }
