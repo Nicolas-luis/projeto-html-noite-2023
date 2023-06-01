@@ -15,9 +15,30 @@ input {
 }
 
 iframe {
-    padding: 0 390px;
+    margin-left: 30%;
 }
 
-h2 {
-    text-align: center;
+h2{
+    margin-left: 35%;
+}
+
+img {
+    margin-left: 32%;
+}
+
+h3 {
+    margin-left: 30%;
+    font-style: italic;
+}
+
+li {
+    margin-left: 40%;
+}
+
+#ff {
+    margin-left: 0%;
+} 
+
+h3 {
+    
 }
