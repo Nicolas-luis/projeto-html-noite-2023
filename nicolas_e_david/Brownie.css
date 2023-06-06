@@ -20,6 +20,10 @@ iframe {
 
 h2 {
     text-align: center;
+        margin: auto;
+        width: 55%;
+        border: 2px solid #ad9821;
+        padding: 2px;
 }
 
 img {
@@ -57,3 +61,6 @@ text::marker {
     color: rgb(231, 213, 24);
   }
   
+  footer {
+  background-image:url(Footer\ laranja.png)
+  } 
